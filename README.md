@@ -21,16 +21,9 @@
   - media_type: image, ignore video
   - title: content_description
 
-## [Secrets](https://guides.codepath.com/android/storing-secret-keys-in-android)
+## References
 
-## [Coroutines](https://developer.android.com/kotlin/coroutines)
-
-```
-Lightweight: The app can run many coroutines on a single thread.
-Fewer memory leaks: We can launch coroutines in the specific scope of the operation 
-                    we are performing instead of launching them in the global scope.
-Built-in cancellation support: Cancellation is propagated automatically through the running coroutine hierarchy.
-Jetpack integration: Many Jetpack libraries include extensions that provide full coroutines support. 
-Some libraries also provide their own coroutine scope that you can use for structured concurrency.
-```
+- [Secrets](https://guides.codepath.com/android/storing-secret-keys-in-android)
+- [Coroutines](https://developer.android.com/kotlin/coroutines)
+- [Detect memory leaks](https://square.github.io/leakcanary)
 

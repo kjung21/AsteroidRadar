@@ -71,6 +71,7 @@ dependencies {
     implementation "com.google.android.material:material:$version_material"
     implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$version_retrofit_coroutines_adapter"
     implementation "com.jakewharton.timber:timber:$version_timber"
+    implementation "com.squareup.leakcanary:leakcanary-android:$version_leakcanary"
     implementation "com.squareup.moshi:moshi:$version_moshi"
     implementation "com.squareup.moshi:moshi-kotlin:$version_moshi"
     implementation "com.squareup.picasso:picasso:$version_picasso"
