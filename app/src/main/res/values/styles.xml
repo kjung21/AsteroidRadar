@@ -1,0 +1,18 @@
+<resources>
+    <style name="TextAppearance.Base" parent="Base.TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.Base">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Base">
+        <item name="android:textSize">@dimen/text_med_large</item>
+    </style>
+
+    <style name="TextAppearance.Date" parent="TextAppearance.Base">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textColor">@color/text_medium_grey</item>
+    </style>
+</resources>

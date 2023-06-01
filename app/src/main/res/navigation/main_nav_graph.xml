@@ -1,0 +1,27 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.kryptopass.asteroidradar.ui.MainFragment"
+        android:label="@string/neo"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.kryptopass.asteroidradar.ui.DetailFragment"
+        android:label="@string/asteroid_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedAsteroid"
+            app:argType="com.kryptopass.asteroidradar.domain.Asteroid"/>
+    </fragment>
+
+</navigation>
